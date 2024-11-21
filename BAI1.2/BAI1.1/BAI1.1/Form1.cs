@@ -62,14 +62,13 @@ namespace GlossaryApp
             this.lblWords = new System.Windows.Forms.Label();
             this.lblDefinition = new System.Windows.Forms.Label();
             this.lstWords = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtDefinition = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblWords
             // 
             this.lblWords.AutoSize = true;
-            this.lblWords.Location = new System.Drawing.Point(22, 29);
+            this.lblWords.Location = new System.Drawing.Point(22, 46);
             this.lblWords.Name = "lblWords";
             this.lblWords.Size = new System.Drawing.Size(44, 16);
             this.lblWords.TabIndex = 0;
@@ -78,7 +77,7 @@ namespace GlossaryApp
             // lblDefinition
             // 
             this.lblDefinition.AutoSize = true;
-            this.lblDefinition.Location = new System.Drawing.Point(181, 29);
+            this.lblDefinition.Location = new System.Drawing.Point(180, 46);
             this.lblDefinition.Name = "lblDefinition";
             this.lblDefinition.Size = new System.Drawing.Size(44, 16);
             this.lblDefinition.TabIndex = 1;
@@ -93,25 +92,17 @@ namespace GlossaryApp
             this.lstWords.Size = new System.Drawing.Size(120, 84);
             this.lstWords.TabIndex = 2;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 3;
-            // 
             // txtDefinition
             // 
-            this.txtDefinition.Location = new System.Drawing.Point(170, 95);
+            this.txtDefinition.Location = new System.Drawing.Point(183, 95);
             this.txtDefinition.Name = "txtDefinition";
-            this.txtDefinition.Size = new System.Drawing.Size(100, 22);
+            this.txtDefinition.Size = new System.Drawing.Size(104, 22);
             this.txtDefinition.TabIndex = 4;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.ClientSize = new System.Drawing.Size(508, 343);
             this.Controls.Add(this.txtDefinition);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lstWords);
             this.Controls.Add(this.lblDefinition);
             this.Controls.Add(this.lblWords);
@@ -122,7 +113,6 @@ namespace GlossaryApp
         }
 
         private ListBox lstWords;
-        private TextBox textBox1;
         private TextBox txtDefinition;
     }
 }
