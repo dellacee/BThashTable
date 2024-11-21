@@ -1,0 +1,3 @@
+query,a request for data or information from a database
+underflow,a condition where a calculation results in a number too small to be represented
+variable,a location in memory that contains a data value
